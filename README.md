@@ -1,5 +1,7 @@
-# go-wolf 🐺
-
+<div align="center">
+  <img src="logo.png" alt="Go-Wolf Logo" width="150" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+</div>
+<br/><br/>
 A high-performance, production-ready web framework for Go that combines the developer-friendly API of Gin with the speed of Fiber.
 
 [![Go Version](https://img.shields.io/badge/Go-%3E%3D%201.21-007d9c)](https://golang.org/)
