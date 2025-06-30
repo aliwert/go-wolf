@@ -8,15 +8,19 @@ response/
 server/
 tests/
 examples/
-router/
 docs/
-test/
+test/core
+test/debug
+test/helpers
+test/integration
+TEST_RESULTS.md
+benchmarks_test.go
 internal/
 pkg/
 utils/
 wolf.go
 CHANGELOG.md
-LICENSE
+.github/ISSUE_TEMPLATE
 
 # Binaries for programs and plugins
 *.exe

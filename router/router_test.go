@@ -9,19 +9,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-// --------------------------------------------------------------------------------
-// router_test.go - Testing the Router
-//
-// This file contains tests for the router implementation.
-// The tests cover:
-//   - Basic routing and parameter handling.
-//   - Middleware execution order.
-//   - Route grouping.
-//   - 404 and 405 error handling.
-// --------------------------------------------------------------------------------
-
-// --- Test Handlers and Middleware ---
-
 func simpleHandler(message string) context.HandlerFunc {
 	return func(c *context.Context) error {
 		return c.String(http.StatusOK, message)
