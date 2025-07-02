@@ -26,14 +26,6 @@ A high-performance, production-ready web framework for Go that combines the deve
 go get github.com/aliwert/go-wolf
 ```
 
-## 📊 Benchmarks
-
-```
-BenchmarkWolf_GithubAPI        20000000    85.6 ns/op      0 B/op    0 allocs/op
-BenchmarkGin_GithubAPI        20000000    91.2 ns/op      0 B/op    0 allocs/op
-BenchmarkFiber_GithubAPI      30000000    62.1 ns/op      0 B/op    0 allocs/op
-```
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct, development process, and how to submit pull requests.

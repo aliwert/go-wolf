@@ -3,10 +3,12 @@ context/
 examples/
 logger/
 middleware/
-request/
-response/
 server/
+version/
+binding/
+render/
 tests/
+integration/
 examples/
 docs/
 test/core
@@ -16,7 +18,7 @@ test/integration
 TEST_RESULTS.md
 benchmarks_test.go
 internal/
-pkg/
+
 utils/
 wolf.go
 CHANGELOG.md
@@ -62,5 +64,8 @@ go.work
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# test results
+*.txt
 
 
