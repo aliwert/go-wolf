@@ -19,10 +19,12 @@ TEST_RESULTS.md
 benchmarks_test.go
 internal/
 
+
+
 utils/
 wolf.go
 CHANGELOG.md
-.github/ISSUE_TEMPLATE
+.github/
 
 # Binaries for programs and plugins
 *.exe
