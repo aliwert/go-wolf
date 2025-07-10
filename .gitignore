@@ -23,8 +23,11 @@ internal/
 
 utils/
 wolf.go
+
+.github/ISSUE_TEMPLATE
+
 CHANGELOG.md
-.github/
+
 
 # Binaries for programs and plugins
 *.exe
